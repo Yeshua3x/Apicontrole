@@ -1,0 +1,13 @@
+{
+  "name": "netlify-supabase-stock",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "engines": {
+    "node": "18"
+  }
+}
