@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Estoque — Chat API</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 12px; }
+    #log { height: 60vh; overflow:auto; border:1px solid #ddd; padding:8px; margin-bottom:8px; }
+    .msg { margin:6px 0; }
+    .user { color: #0a66c2; }
+    .bot { color: #111; }
+    .item { font-family: monospace; background:#f7f7f7; padding:4px; display:block; margin:4px 0; }
+    input, button, select { padding:8px; margin:4px 0; width:100%; box-sizing:border-box; }
+  </style>
+</head>
+<body>
+  <h2>Controle de Estoque — Chat API</h2>
+  <div id="log"></div>
+
+  <div>
+    <select id="action">
+      <option value="list">Listar</option>
+      <option value="create">Criar</option>
+      <option value="get">Obter</option>
+      <option value="update">Atualizar</option>
+      <option value="delete">Remover</option>
+    </select>
+
+    <div id="form-area"></div>
+
+    <button id="send">Enviar</button>
+  </div>
+
+  <script src="/main.js"></script>
+</body>
+</html>
